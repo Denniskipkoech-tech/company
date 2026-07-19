@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preschem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <span>Trusted cleaning supplies for homes, businesses, and institutions</span>
+      <a class="whatsapp-link" href="https://wa.me/254793689192" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img src="logo.svg" alt="Preschem Chemical and Cleaning Solutions logo featuring a blue container with cleaning supplies icon and company name Preschem with tagline Manufacturing, Hygiene, Trust" class="logo-image">
+        <p class="tag">Preschem</p>
+        <h1>Quality Cleaning Solutions You Can Trust</h1>
+        <p class="lead">From everyday household cleaning to reliable industrial care products, Preschem delivers dependable chemical and hygiene solutions for modern homes, institutions, and commercial spaces.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">Shop Products</a>
+          <a href="#contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h3>Why choose Preschem?</h3>
+        <ul>
+          <li>Reliable product quality</li>
+          <li>Affordable pricing</li>
+          <li>Friendly customer support</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="banner-section">
+    <div class="container">
+      <img src="banner.svg" alt="Preschem promotional banner showcasing cleaning and chemical products for household and commercial use" class="banner-image">
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Our Products</h2>
+        <p>High-performing cleaning essentials made for daily use.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product">
+          <div class="product-image">🧴</div>
+          <h3>Liquid Detergent</h3>
+          <p>Available in different sizes for home and commercial cleaning.</p>
+          <div class="price-row"><span class="price">KSh 450</span><button class="order-btn">Order Now</button></div>
+        </article>
+
+        <article class="product">
+          <div class="product-image">🧪</div>
+          <h3>Medicinal Spirit</h3>
+          <p>High quality medical spirit for safe and effective use.</p>
+          <div class="price-row"><span class="price">KSh 380</span><button class="order-btn">Order Now</button></div>
+        </article>
+
+        <article class="product">
+          <div class="product-image">🧼</div>
+          <h3>Cleaning Essentials</h3>
+          <p>Complete hygiene support for daily operations and businesses.</p>
+          <div class="price-row"><span class="price">KSh 520</span><button class="order-btn">Order Now</button></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="order-panel">
+    <div class="container order-grid">
+      <div>
+        <h2>Place an Order</h2>
+        <p>Send your details and we’ll help you with the right product for your needs.</p>
+        <p class="small-note">This form opens a WhatsApp order message automatically.</p>
+      </div>
+
+      <form class="order-form" id="orderForm">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="phone" placeholder="Your phone number" required>
+        </label>
+        <label>
+          Product
+          <select name="product" required>
+            <option value="">Select a product</option>
+            <option>Liquid Detergent</option>
+            <option>Medicinal Spirit</option>
+            <option>Cleaning Essentials</option>
+          </select>
+        </label>
+        <label>
+          Quantity
+          <input type="number" name="quantity" min="1" value="1" required>
+        </label>
+        <button type="submit" class="btn btn-primary submit-btn">Submit Order</button>
+        <p class="form-message" id="formMessage"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container about-grid">
+      <div>
+        <h2>About Preschem</h2>
+        <p>Preschem is committed to delivering dependable cleaning solutions that help homes and businesses maintain hygiene, comfort, and confidence every day.</p>
+      </div>
+      <div>
+        <h2>What We Offer</h2>
+        <p>Quality products, trusted service, and friendly support for every cleaning need.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div>
+        <h3>Contact Us</h3>
+        <p>Phone: 0793689192</p>
+        <p>WhatsApp: <a href="https://wa.me/254793689192" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+        <p>Location: Serving homes and businesses with dependable cleaning supplies</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
